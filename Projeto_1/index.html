@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <form id="survey-form">
+      <h1 id="title">MÚSICA</h1>
+      <p id="description">Formulário de Pesquisa Musical</p>
+  
+      <label for="name">Nome:
+        <input placeholder="Seu nome" type="text" id="name" required>
+      </label>
+  
+      <label for="email">Email:
+        <input placeholder="Seu email" type="email" id="email" required>
+      </label>
+  
+      <label for="number">Telefone:
+        <input placeholder="Seu telefone" min="10" max="30" type="number" id="number">
+      </label>
+  
+      <label for="genre">Gênero favorito:
+        <select id="genre">
+          <option value="pop">Pop</option>
+          <option value="rock">Rock</option>
+        </select>
+      </label>
+  
+      <div class="options">
+        <label class="option"><input type="radio" name="radio" value="mpb">MPB </label>
+        <label class="option"><input type="radio" name="radio" value="hap">Hap</label>
+        <label class="option"><input type="checkbox" value="reggae">Reggae</label>
+        <label class="option"><input type="checkbox" value="classica">Clássica</label>
+        <label class="option"><input type="checkbox" value="jazz">Jazz</label>
+      </div>
+  
+      <label for="feedback">Tem algum comentário extra a fazer? Digite abaixo!</label>
+      <textarea id="feedback" name="feedback"></textarea>
+  
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+  </html>

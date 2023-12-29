@@ -1,0 +1,123 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+  }
+  
+  #header {
+    background-color: #3498db; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #header-img {
+    width: 200px;
+  }
+  
+  #nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+    font-size: 1.2em;
+  }
+  
+  #class {
+    background-color: #333;
+    color: white;
+    padding: 50px;
+    text-align: center;
+  }
+  .video {
+    background-color: #333;
+    color: white;
+    text-align:center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+  }
+  #video{
+    height: 80%;
+  }
+  #recursos,
+  #precos,
+  #contato {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #recursos h2,
+  #precos h2,
+  #contato h2 {
+    color: #3498db; 
+    margin-bottom: 20px;
+  }
+  
+  #recursos p,
+  #precos p,
+  #contato p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .form {
+    background-color: white;
+    padding: 50px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  #email {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #submit {
+    background-color: #3498db; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #header-img {
+      width: 100px; 
+    }
+  
+    .nav-link {
+      font-size: 1em; 
+  
+    }
+  
+    #recursos,
+    #precos,
+    #contato {
+      padding: 30px; 
+    }
+  }
+  

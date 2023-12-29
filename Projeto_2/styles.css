@@ -1,0 +1,13 @@
+
+
+#image {
+    max-width: 100%;
+    display: block;
+    justify-content: center;
+    height:auto;
+    }
+    h1{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }

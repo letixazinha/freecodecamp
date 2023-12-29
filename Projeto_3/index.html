@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Documentação Java</title>
+</head>
+
+<body>
+  <nav id="navbar">
+    <header>Documentação Java</header>
+    <ul>
+      <li><a class="nav-link" href="#Introdução">Introdução</a></li>
+      <li><a class="nav-link" href="#Variáveis">Variáveis</a></li>
+      <li><a class="nav-link" href="#Métodos">Métodos</a></li>
+      <li><a class="nav-link" href="#Estruturas_De_Repetição">Estruturas de Repetição</a></li>
+      <li><a class="nav-link" href="#Estruturas_De_Dados">Estruturas de Dados</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+    <section id="Introdução" class="main-section">
+      <header>Introdução</header>
+      <p>Java é uma linguagem de programação versátil e orientada a objetos amplamente utilizada para construir aplicativos robustos e escaláveis. É conhecida por sua filosofia "write once, run anywhere".</p>
+      <p>Esta seção fornecerá uma introdução aos conceitos fundamentais da programação em Java.</p>
+    </section>
+
+    <section id="Variáveis" class="main-section">
+      <header>Variáveis</header>
+      <p>Em Java, as variáveis são usadas para armazenar e gerenciar dados. Elas têm um tipo de dado específico, e o tipo deve ser declarado explicitamente.</p>
+      <p>Exemplo:</p>
+      <code>int idade = 25;<br>String nome = "João";</code>
+      <p>Tipos comuns de variáveis:</p>
+      <ul>
+        <li>int</li>
+        <li>double</li>
+        <li>boolean</li>
+        <li>String</li>
+        <li>char</li>
+      </ul>
+    </section>
+
+    <section id="Métodos" class="main-section">
+      <header>Métodos</header>
+      <p>Métodos (funções) em Java são blocos de código que realizam uma tarefa específica. Eles são definidos dentro de classes e seguem os princípios da programação orientada a objetos.</p>
+      <p>Exemplo:</p>
+      <code>
+        public void cumprimentar(String nome) {<br>
+        &emsp;System.out.println("Olá, " + nome + "!");<br>
+        }<br>
+        cumprimentar("Alice");
+      </code>
+    </section>
+
+    <section id="Estruturas_De_Repetição" class="main-section">
+      <header>Estruturas de Repetição</header>
+      <p>Java suporta vários tipos de estruturas de repetição, como <code>for</code>, <code>while</code> e <code>do-while</code>. Elas são usadas para iterar sobre sequências ou executar um bloco de código repetidamente.</p>
+      <p>Exemplo:</p>
+      <code>
+        for (int i = 0; i < 5; i++) {<br>
+        &emsp;System.out.println(i);<br>
+        }
+      </code>
+    </section>
+
+    <section id="Estruturas_De_Dados" class="main-section">
+      <header>Estruturas de Dados</header>
+      <p>Java fornece um conjunto rico de estruturas de dados, incluindo arrays, listas e mapas. Essas estruturas são essenciais para organizar e manipular dados de maneira eficiente.</p>
+      <p>Exemplo:</p>
+      <code>
+        List<String> minhaLista = new ArrayList<>();<br>
+        minhaLista.add("Java");<br>
+        System.out.println(minhaLista.get(0));
+      </code>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+

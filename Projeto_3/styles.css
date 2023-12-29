@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #d9534f; /* Vermelho - alteração da cor principal */
+    color: white;
+    padding: 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #navbar header {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #navbar li {
+    margin: 10px;
+  }
+  
+  #navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  #navbar a:hover {
+    color: #f0807e; /* Tom mais claro de vermelho ao passar o mouse */
+  }
+  
+  .main-section {
+    padding: 50px;
+    margin-left: 300px;
+  }
+  
+  .main-section header {
+    font-size: 2.5em;
+    color: #d9534f; 
+    margin-bottom: 20px;
+  }
+  
+  .main-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  /* Media Query para design responsivo */
+  @media (max-width: 768px) {
+    #navbar {
+      width: 100%;
+      height: auto;
+      text-align: center;
+      position: static;
+    }
+  
+    #navbar ul {
+      flex-direction: row;
+    }
+  
+    .main-section {
+      margin-left: 0;
+      padding: 30px;
+    }
+  }
+  
+  
